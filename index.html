@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anjani Computer Jakarta - Jual Beli & Lelang Komputer Bekas Kantor</title>
+    
+    <!-- Meta Descriptions -->
+    <meta name="description" content="Anjani Computer menyediakan berbagai komputer bekas berkualitas, laptop second, serta layanan lelang dan borongan komputer bekas kantor. Temukan perangkat terbaik untuk kebutuhan Anda di Anjani Computer." />
+
+    <!-- Keywords for SEO -->
+    <meta name="keywords" content="anjani computer, anjani komputer, anjani computer jakarta, anjani computer indonesia, anjani komputer jakarta, anjani computer bekas jakarta, jual beli komputer bekas, jual komputer, lelang komputer bekas kantor, komputer second, laptop bekas, borongan komputer bekas kantor, Anjani Computer, anjani lelang komputer" />
+        
+    <link rel="canonical" href="https://www.anjanicomputer.my.id/" />
+        
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+        
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.anjanicomputer.my.id/" />
+
+    <!-- Social Media Metadata (Open Graph) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Anjani Computer - Jual Beli & Lelang Komputer Bekas Kantor" />
+    <meta property="og:description" content="Anjani Computer menawarkan jual beli & Lelang komputer bekas, laptop second, serta layanan lelang dan borongan komputer bekas kantor. Kunjungi kami untuk produk berkualitas dengan harga terbaik." />
+    <meta property="og:image" content="https://www.anjanicomputer.my.id/images/about.png" />
+    <meta property="og:url" content="https://www.anjanicomputer.my.id/" />
+    <meta property="og:site_name" content="Anjani Computer - Jual Beli & Lelang Komputer Bekas Kantor" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/images/about.png" type="image/x-icon" />
+
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- AOS CSS CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+
+    <!-- Swiper CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- Font and FontAwesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .font-bangers {
+        font-family: 'Bangers', cursive;
+        padding-left: 2px;
+        padding-right: 2px;
+        letter-spacing: 0.1rem;
+      }
+      .font-ibm {
+        font-family: 'IBM Plex Mono', monospace;
+      }
+      .font-londrina {
+        font-family: 'Londrina Solid', cursive;
+        letter-spacing: 2px;
+      }
+      .swiper-container {
+          width: 100%;
+          max-width: 300px; /* Batasi lebar container */
+          overflow: hidden; /* Hindari elemen yang keluar */
+      }
+      .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+          color: #000; /* Warna navigasi */
+      }
+      .swiper-pagination-bullet {
+          background: #C30A11; /* Warna pagination */
+      }
+
+      /* Swiper styles for Premio */
+      #swiper-premio .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .swiper-button-next-premio,
+      .swiper-button-prev-premio {
+          color: #000;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow agar lebih terlihat */
+      }
+      .swiper-pagination-premio .swiper-pagination-bullet {
+          background: #2B65EC; /* Warna pagination */
+      }
+    </style>
+
+  </head>
+  <body class="leading-relaxed font-ibm bg-[#f7f9ff] text-black">
+    <!-- Navbar -->
+    <header class="bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] w-full z-50 shadow-md px-6 md:px-20">
+        <nav class="container mx-auto flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="flex-shrink-0" data-aos="fade-right">
+              <h3 class="font-bangers text-2xl text-white font-bold">Anjani Computer</h3>
+              <!-- <img src="/images/logo.jpeg" alt="Logo" class="h-12 w-16 rounded-md"> -->
+            </div>
+        
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex gap-8 items-center font-ibm" data-aos="fade-left">
+                <a href="#about" class="font-semibold text-white hover:text-gray-300 transition duration-200 smooth-scroll">Tentang Kami</a>
+                <a href="#layanan" class="font-semibold text-white hover:text-gray-300 transition duration-200 smooth-scroll">Layanan</a>
+                <a href="#gallery" class="font-semibold text-white hover:text-gray-300 transition duration-200 smooth-scroll">Galeri</a>
+                <a href="#contact" class="font-semibold text-white hover:text-gray-300 transition duration-200 smooth-scroll">Kontak</a>
+            </div>
+        
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden focus:outline-none" id="menu-toggle">
+                <svg id="hamburger-icon" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg id="close-icon" class="w-6 h-6 hidden text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </nav>
+    
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="w-full h-80 object-cover pt-2 pb-4 space-y-2 text-white hidden">
+            <a href="#about" class="block py-2 px-6 rounded-md font-medium text-white hover:text-gray-300 transition duration-200 smooth-scroll">Tentang Kami</a>
+            <a href="#car" class="block py-2 px-6 rounded-md font-medium text-white hover:text-gray-300 transition duration-200 smooth-scroll">Pilihan Armada</a>
+            <a href="#gallery" class="block py-2 px-6 rounded-md font-medium text-white hover:text-gray-300 transition duration-200 smooth-scroll">Galeri</a>
+            <a href="#contact" class="block py-2 px-6 rounded-md font-medium text-white hover:text-gray-300 transition duration-200 smooth-scroll">Kontak</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-center h-screen relative flex items-center justify-center px-6 md:px-10">
+        <div class="flex flex-col lg:flex-row-reverse items-center gap-8 text-white" data-aos="fade-up">
+            <div class="relative flex-shrink-0 mt-10 md:mt-0">
+                <img src="/images/hero.png" alt="" class="w-96" data-aos="fade-up">
+                <div class="absolute hidden md:block bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] w-[300px] md:w-[360px] h-[300px] md:h-[360px] rounded-full top-[50%] left-[48%] transform -translate-x-1/2 -translate-y-1/2 z-[-1]"></div>
+                <div class="absolute md:hidden bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] w-[300px] md:w-[360px] h-[300px] md:h-[360px] rounded-full top-[50%] left-[48%] transform -translate-x-1/2 -translate-y-1/2 z-[-1]"></div>
+            </div>
+            <div class="mt-6 lg:mt-0 lg:ml-8 text-center lg:text-left">
+                <h1 class="font-londrina text-[#2B65EC] text-5xl font-bold drop-shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                  Anjani Computer
+                </h1>
+                <p class="mt-4 text-xl text-black" data-aos="fade-up" data-aos-delay="200">
+                  Mau upgrade perangkat atau butuh komputer second berkualitas? Kami siap membantu dengan harga terbaik dan layanan terpercaya.
+                </p>
+                <a href="https://wa.me/6285292245818?text=Halo!%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Anjani%20Computer." class="mt-6 inline-block px-5 py-2 rounded-md bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-white font-semibold hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-500 transition duration-300 drop-shadow-xl" data-aos="fade-up" data-aos-delay="300">
+                    Pesan Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section id="about" class="py-16">
+      <div class="container mx-auto px-6 md:px-20">
+          <div class="grid lg:grid-cols-2 gap-10 items-center">
+              <!-- Image -->
+              <div class="relative text-center">
+                <h2 class="md:hidden text-4xl font-londrina font-bold text-black mb-8" data-aos="fade-up">
+                    Tentang Kami
+                </h2>
+                <div class="flex justify-center justify-center bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] py-4 px-6 md:px-10 md:py-20 rounded-md shadow-md" data-aos="fade-up" data-aos-delay="100">
+                  <h1 class="font-bangers text-white text-5xl font-bold drop-shadow-lg">ANJANI COMPUTER</h1>
+                </div>
+              </div>
+              <!-- Text Content -->
+              <div class="text-center md:text-left">
+                  <h2 class="hidden md:block text-4xl font-londrina font-bold text-black mb-6" data-aos="fade-up">
+                      Tentang Kami
+                  </h2>
+                  <p class="text-lg text-gray-700 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <span class="text-[#2B65EC] font-semibold">Anjani Computer</span> adalah mitra terpercaya Anda dalam jual beli komputer second dan pengelolaan perangkat IT bekas. Kami hadir dengan komitmen untuk memberikan layanan berkualitas yang memenuhi kebutuhan pribadi, bisnis, hingga perusahaan besar.
+                  </p>
+                  <a href="https://wa.me/6285292245818?text=Halo!%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Anjani%20Computer." class="mt-6 inline-block px-5 py-2 rounded-md bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-white font-semibold hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-500 transition duration-300 drop-shadow-xl" data-aos="fade-up" data-aos-delay="400">
+                      Hubungi Kami
+                  </a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Layanan Kami Section -->
+    <section id="layanan" class="py-16">
+      <div class="container mx-auto px-6 md:px-12">
+        <h2 class="text-4xl font-londrina font-bold text-black mb-8 text-center" data-aos="fade-up">
+          Layanan Kami
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Layanan 1 -->
+          <div class="flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-200 to-white shadow-lg rounded-lg p-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="flex items-center justify-center h-16 w-16 rounded-full bg-gray-800 text-white mb-6">
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-700 mb-4">Jual Beli Komputer Bekas</h3>
+              <p class="text-gray-600">
+                Kami menyediakan komputer second berkualitas dengan penawaran harga terbaik untuk Anda.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Layanan 2 -->
+          <div class="flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-200 to-white shadow-lg rounded-lg p-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="flex items-center justify-center h-16 w-16 rounded-full bg-gray-800 text-white mb-6">
+              <i class="fas fa-handshake text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-700 mb-4">Lelang & Borongan Komputer</h3>
+              <p class="text-gray-600">
+                Terima lelangan dan borongan perangkat komputer bekas kantor dengan proses mudah dan harga kompetitif.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Button -->
+         <div class="flex items-center justify-center mt-4">
+           <a href="https://wa.me/6285292245818?text=Halo!%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Anjani%20Computer." class="mt-6 inline-block px-5 py-2 rounded-md bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-white font-semibold hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-500 transition duration-300 drop-shadow-xl" data-aos="fade-up" data-aos-delay="300">
+             Hubungi Kami
+            </a>
+          </div>
+      </div>
+    </section>    
+
+    <!-- Section Armada Komputer -->
+    <!-- <section class="py-16">
+      <div class="container mx-auto px-6 md:px-20">
+          <div class="text-center mb-12">
+              <h2 class="text-4xl font-londrina font-bold text-black mb-4" data-aos="fade-up">
+                  Armada Komputer Kami
+              </h2>
+              <p class="text-lg text-gray-700" data-aos="fade-up" data-aos-delay="100">
+                  Temukan kenyamanan dan kemewahan perjalanan dengan pilihan Komputer terbaik kami!
+              </p>
+          </div>
+          <div class="flex flex-col lg:flex-row items-center gap-12 mb-16" data-aos="fade-up">
+            <div class="relative flex-shrink-0">
+                <div class="swiper-container" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide h-[400px]">
+                          <a href="/images/premiolux.jpeg">
+                            <img src="/images/premiolux.jpeg" alt="Komputer Premio Luxury 1" class="w-96 rounded-lg shadow-md object-cover">
+                          </a>
+                        </div>
+                        <div class="swiper-slide h-80">
+                          <a href="/images/premiolux1.jpeg">
+                            <img src="/images/premiolux1.jpeg" alt="Komputer Premio Luxury 2" class="w-96 rounded-lg shadow-md object-cover">
+                          </a>
+                        </div>
+                        <div class="swiper-slide h-80">
+                          <a href="/images/premiolux2.jpeg">
+                            <img src="/images/premiolux2.jpeg" alt="Komputer Premio Luxury 3" class="w-96 rounded-lg shadow-md object-cover">
+                          </a>
+                        </div>
+                        <div class="swiper-slide h-80">
+                          <a href="/images/premiolux3.jpeg">
+                            <img src="/images/premiolux3.jpeg" alt="Komputer Premio Luxury 4" class="w-96 rounded-lg shadow-md object-cover">
+                          </a>
+                        </div>
+                        <div class="swiper-slide h-80">
+                          <a href="/images/premiolux4.jpeg">
+                            <img src="/images/premiolux4.jpeg" alt="Komputer Premio Luxury 5" class="w-96 rounded-lg shadow-md object-cover">
+                          </a>
+                        </div>
+                        <div class="swiper-slide h-80">
+                          <a href="/images/premiolux5.jpeg">
+                            <img src="/images/premiolux5.jpeg" alt="Komputer Premio Luxury 6" class="w-96 rounded-lg shadow-md object-cover">
+                          </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section> -->
+
+    <!-- Section Keunggulan -->
+    <section id="keunggulan" class="py-16 bg-gradient-to-br from-[#2B65EC] to-[#b8ceff]">
+      <div class="container mx-auto px-6 md:px-12 text-center">
+        <h2 class="text-4xl font-londrina font-extrabold text-gray-800 mb-8" data-aos="zoom-in">
+          Keunggulan Kami
+        </h2>
+        <p class="text-gray-600 mb-12" data-aos="fade-up" data-aos-delay="100">
+          Kami berkomitmen untuk memberikan pelayanan terbaik demi memenuhi kebutuhan dan kepuasan Klien.
+          Inilah alasan mengapa Anjani Computer menjadi pilihan tepat untuk solusi jual beli komputer second berkualitas.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+          <!-- Keunggulan 2 -->
+          <div class="bg-gradient-to-br from-gray-200 to-white shadow-md rounded-xl p-8" data-aos="flip-left" data-aos-delay="200">
+            <div class="flex items-center justify-center h-20 w-20 rounded-full bg-yellow-500 text-white mx-auto mb-6">
+              <i class="fas fa-tags text-3xl"></i>
+            </div>
+            <h3 class="text-2xl text-londrina font-semibold text-gray-700 mb-4">Harga Kompetitif</h3>
+            <p class="text-gray-600">
+              Kami memberikan harga terbaik, baik untuk Anda yang menjual maupun membeli komputer second.
+            </p>
+          </div>
+    
+          <!-- Keunggulan 3 -->
+          <div class="bg-gradient-to-br from-gray-200 to-white shadow-md rounded-xl p-8" data-aos="flip-left" data-aos-delay="300">
+            <div class="flex items-center justify-center h-20 w-20 rounded-full bg-yellow-500 text-white mx-auto mb-6">
+              <i class="fas fa-clock text-3xl"></i>
+            </div>
+            <h3 class="text-2xl text-londrina font-semibold text-gray-700 mb-4">Proses Cepat & Transparan</h3>
+            <p class="text-gray-600">
+              Nikmati proses transaksi yang mudah, cepat, dan transparan, sesuai kebutuhan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16">
+      <div class="container mx-auto px-6 md:px-20">
+          <div class="text-center mb-12">
+              <h2 class="text-4xl font-londrina font-bold text-black mb-4" data-aos="fade-up">
+                  Galeri Kami
+              </h2>
+              <p class="text-lg text-gray-700" data-aos="fade-up" data-aos-delay="200">
+                Di galeri ini, kami menampilkan berbagai perangkat komputer dan laptop, baik yang telah kami jual maupun yang masih tersedia. Dari komputer bekas kantor hingga laptop pilihan, kami membantu klien dalam proses jual beli perangkat berkualitas yang sesuai dengan kebutuhan.
+              </p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              <!-- Gallery Item -->
+              <div class="relative group" data-aos="fade-up" data-aos-delay="200">
+                  <img src="/images/1.jpg" alt="Komputer 1" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="250">
+                  <img src="/images/2.jpg" alt="Komputer 2" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="300">
+                  <img src="/images/3.jpg" alt="Komputer 3" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="350">
+                  <img src="/images/4.jpg" alt="Komputer 4" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="400">
+                  <img src="/images/5.jpg" alt="Komputer 5" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="450">
+                  <img src="/images/6.jpg" alt="Komputer 6" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="500">
+                  <img src="/images/7.jpg" alt="Komputer 7" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="550">
+                  <img src="/images/8.jpg" alt="Komputer 8" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="600">
+                  <img src="/images/9.jpg" alt="Komputer 9" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="650">
+                  <img src="/images/10.jpg" alt="Komputer 10" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="700">
+                  <img src="/images/11.jpg" alt="Komputer 11" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="750">
+                  <img src="/images/12.jpg" alt="Komputer 12" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="800">
+                  <img src="/images/13.jpg" alt="Komputer 13" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="850">
+                  <img src="/images/14.jpg" alt="Komputer 14" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="900">
+                  <img src="/images/15.jpg" alt="Komputer 15" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="950">
+                  <img src="/images/16.jpg" alt="Komputer 16" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1000">
+                  <img src="/images/17.jpg" alt="Komputer 17" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1050">
+                  <img src="/images/18.jpg" alt="Komputer 18" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1100">
+                  <img src="/images/19.jpg" alt="Komputer 19" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1150">
+                  <img src="/images/20.jpg" alt="Komputer 20" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1200">
+                  <img src="/images/21.jpg" alt="Komputer 21" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1250">
+                  <img src="/images/22.jpg" alt="Komputer 22" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+              <div class="relative group" data-aos="fade-up" data-aos-delay="1300">
+                  <img src="/images/23.jpg" alt="Komputer 23" class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer" onclick="openModal(this.src)">
+              </div>
+          </div>
+      </div>
+
+      <!-- Modal -->
+      <div id="imageModal" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center hidden">
+          <div class="relative">
+              <img id="modalImage" src="" alt="Full View" class="rounded-lg max-h-[90vh] max-w-[90vw]">
+              <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl bg-black bg-opacity-50 rounded-full px-3 py-1">✖</button>
+          </div>
+      </div>
+    </section>
+
+    <!-- Section CTA -->
+    <section id="contact" class="py-16 bg-gradient-to-br from-[#2B65EC] to-[#b8ceff]">
+      <div class="container mx-auto px-6 md:px-20">
+          <div class="text-center mb-12">
+              <h2 class="text-4xl font-londrina font-bold text-white mb-4" data-aos="fade-up">
+                  Hubungi Kami Sekarang
+              </h2>
+              <p class="text-lg text-gray-100" data-aos="fade-up" data-aos-delay="100">
+                Jika Anda memiliki pertanyaan atau ingin mendapatkan informasi lebih lanjut, jangan ragu untuk menghubungi kami. Kami siap membantu Anda!
+              </p>
+          </div>
+          <div class="flex flex-col md:flex-row justify-center items-center gap-6 overflow-hidden">
+              <!-- Tombol Telepon -->
+              <a href="tel:+6285292245818" class="flex items-center gap-4 px-6 py-3 bg-black text-white rounded-lg shadow-md hover:bg-gray-800 transition duration-300" data-aos="fade-right">
+                  <i class="fas fa-phone text-2xl"></i>
+                  <span class="text-lg font-semibold">Telepon Sekarang</span>
+              </a>
+              <!-- Tombol WhatsApp -->
+              <a href="https://wa.me/6285292245818?text=Halo!%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Anjani%20Computer." class="flex items-center gap-4 px-6 py-3 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600 transition duration-300" data-aos="fade-left">
+                  <i class="fab fa-whatsapp text-2xl"></i>
+                  <span class="text-lg font-semibold">WhatsApp</span>
+              </a>
+          </div>
+      </div>
+    </section>    
+
+    <!-- Section Media Sosial -->
+    <!-- <section id="media-sosial" class="py-16">
+      <div class="container mx-auto px-6 md:px-20">
+          <div class="text-center mb-12">
+              <h2 class="text-4xl font-londrina font-bold text-black mb-4" data-aos="fade-up">
+                  Ikuti Kami di Media Sosial
+              </h2>
+              <p class="text-lg text-gray-700" data-aos="fade-up" data-aos-delay="100">
+                  Tetap terhubung dan dapatkan informasi terbaru tentang layanan kami melalui platform media sosial.
+              </p>
+          </div>
+          <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+              <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-6 w-64 text-center" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://www.instagram.com/hanz.transport" target="_blank" rel="noopener noreferrer">
+                  <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-white rounded-full mb-6">
+                      <i class="fab fa-instagram text-3xl"></i>
+                  </div>
+                </a>
+                  <h3 class="text-xl font-bold text-black mb-2">Instagram</h3>
+                  <p class="text-gray-700">
+                      <a href="https://www.instagram.com/hanz.transport" class="text-[#2B65EC] font-semibold hover:underline" target="_blank" rel="noopener noreferrer">
+                          @hanz.transport
+                      </a>
+                  </p>
+              </div>
+              <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-6 w-64 text-center" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://www.tiktok.com/@hanz.trans" target="_blank" rel="noopener noreferrer">
+                  <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-white rounded-full mb-6">
+                      <i class="fab fa-tiktok text-3xl"></i>
+                  </div>
+                </a>
+                  <h3 class="text-xl font-bold text-black mb-2">TikTok</h3>
+                  <p class="text-gray-700">
+                      <a href="https://www.tiktok.com/@hanz.trans" class="text-[#2B65EC] font-semibold hover:underline" target="_blank" rel="noopener noreferrer">
+                          @hanz.trans
+                      </a>
+                  </p>
+              </div>
+              <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-6 w-64 text-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://www.facebook.com/hanztransport" target="_blank" rel="noopener noreferrer">
+                  <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-white rounded-full mb-6">
+                      <i class="fab fa-facebook-f text-3xl"></i>
+                  </div>
+                </a>
+                  <h3 class="text-xl font-bold text-black mb-2">Facebook</h3>
+                  <p class="text-gray-700">
+                      <a href="https://www.facebook.com/hanztransport" class="text-[#2B65EC] font-semibold hover:underline" target="_blank" rel="noopener noreferrer">
+                          @hanz transport
+                      </a>
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section> -->
+
+    <!-- Section Alamat -->
+    <section id="alamat" class="py-16">
+      <div class="container mx-auto px-6 md:px-20">
+          <div class="text-center mb-12">
+              <h2 class="text-4xl font-londrina font-bold text-black mb-4" data-aos="fade-up">
+                  Lokasi Kami
+              </h2>
+              <p class="text-lg text-gray-700" data-aos="fade-up" data-aos-delay="100">
+                  Temukan kami di lokasi berikut dan kunjungi untuk mendapatkan layanan terbaik kami.
+              </p>
+          </div>
+          <div class="flex flex-col md:flex-row items-center gap-12">
+              <!-- Map -->
+              <div class="w-full md:w-1/2" data-aos="fade-up" data-aos-delay="200">
+                <iframe 
+                    class="w-full h-96 rounded-lg shadow-md" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.4975402352987!2d106.761149!3d-6.1674256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f768aa6a79d5:0x7602b4d310ef3092!2sAnjani+Computer+(+terima+lelangan%2Fborongan+komputer+bekas+kantor)!5e0!3m2!1sen!2sid!4v1698507879426!5m2!1sen!2sid" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+              </div>
+              <!-- Address Details -->
+              <div class="w-full md:w-1/2 text-center md:text-left">
+                  <h3 class="text-2xl font-bold text-black mb-4 font-londrina" data-aos="fade-up" data-aos-delay="300">
+                      Hubungi Kami di Lokasi Ini
+                  </h3>
+                  <p class="text-gray-700 text-lg leading-relaxed" data-aos="fade-up" data-aos-delay="400">
+                      <strong>Anjani Computer</strong>
+                  </p>
+                  <p class="text-gray-700 text-lg leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="400">
+                      Rusunawa kios tower blok c lantai 1 no.33, Kota Jakarta Barat, Jawa Barat
+                  </p>
+                  <p class="text-gray-700 text-lg leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="500">
+                      <strong>Jam Operasional:</strong> <br>
+                      <span>Senin - Jumat: 07.00 - 21.00 WIB</span> <br>
+                      <span>Minggu: 07.00 - 17.00 WIB</span> <br>
+                  </p>
+                  <p class="text-gray-700 text-lg leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="600">
+                      <strong>WhatsApp:</strong>
+                      <a href="https://wa.me/6285292245818?text=Halo!%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Anjani%20Computer." class="text-[#2B65EC] font-semibold hover:underline" target="_blank" rel="noopener noreferrer">
+                          0852-9224-5818
+                      </a>
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-br from-[#2B65EC] to-[#b8ceff] text-center py-6 px-6">
+      <div class="container mx-auto">
+        <p class="text-sm text-center text-white">
+          © 2024 - Anjani Computer. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/6285292245818?text=Halo!%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Anjani%20Computer."
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 hover:bg-green-600 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:scale-110 animate-bounce-slow z-50 group"
+      id="whatsappButton"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-8 w-8"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+        />
+      </svg>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Inisialisasi AOS
+      AOS.init({
+        duration: 700,
+        once: true,
+      });
+
+      // Toggle mobile menu
+      document
+        .getElementById("menu-toggle")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("mobile-menu");
+          const iconClose = document.getElementById("close-icon");
+          const iconHamburger = document.getElementById("hamburger-icon");
+          menu.classList.toggle("hidden");
+          iconClose.classList.toggle("hidden");
+          iconHamburger.classList.toggle("hidden");
+        });
+        
+        // Open Modal
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = imageSrc;
+            modal.classList.remove('hidden');
+        }
+
+        // Close Modal
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden');
+        }
+
+        // Carousel
+        const swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1, // Tampilkan satu slide dalam satu waktu
+          spaceBetween: 10, // Jarak antar gambar
+          loop: true, // Aktifkan loop
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+        // Carousel 2
+        const swiperPremio = new Swiper('#swiper-premio', {
+            slidesPerView: 1, // Tampilkan satu slide dalam satu waktu
+            spaceBetween: 10, // Jarak antar gambar
+            loop: true, // Aktifkan loop
+            navigation: {
+                nextEl: '.swiper-button-next-premio',
+                prevEl: '.swiper-button-prev-premio',
+            },
+            pagination: {
+                el: '.swiper-pagination-premio',
+                clickable: true,
+            },
+        });
+    </script>
+  </body>
+</html>
